@@ -1,0 +1,14 @@
+#load necessary libraries
+suppressWarnings(suppressMessages(library(RSocrata)))
+suppressWarnings(suppressMessages(library(tidyverse)))
+suppressWarnings(suppressMessages(library(jsonlite)))
+suppressWarnings(suppressMessages(library(tidygeocoder)))
+
+source('src/chicago_movies_in_the_park_gather_functions.R')
+
+
+
+#Note:
+
+If tidyverse causes error on load, try install.packages("tidyverse", dependencies=TRUE).  If that fails,
+try: update.packages(checkBuilt=TRUE)
