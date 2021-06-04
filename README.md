@@ -15,3 +15,7 @@ As of 2021, the *Movies in the Parks* datasets can be found under the [Parks and
 3. Iterates over tibble and requests data via API and json API endpoint strings.
 4. Clean each file.  All years have different features and column names.  i.e. Rename columns, Add/Remove columns, geocode addresses.
 5. Write unioned output as a csv file to output folder.
+
+## API 
+
+This project will request a Socrata API app token, email and password from the user.  First, [register a project with Socrata to obtain your app token](https://support.socrata.com/hc/en-us/articles/210138558-Generating-an-App-Token).
