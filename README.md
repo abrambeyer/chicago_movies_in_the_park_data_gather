@@ -12,6 +12,6 @@ As of 2021, the *Movies in the Parks* datasets can be found under the [Parks and
 # Steps taken by the main script function
 1.  Load all necessary R libraries
 2.  Creates a tibble of data years and Chicago Open Portal Socrata API jsons.  Currently, there are only files for 2014-2019 on the data portal.  You could update this tibble with new data release json objects, and it would gather more data.
-3. Request data via API and json API endpoint strings.
+3. Iterates over tibble and requests data via API and json API endpoint strings.
 4. Clean each file.  All years have different features and column names.  i.e. Rename columns, Add/Remove columns, geocode addresses.
 5. Write unioned output as a csv file to output folder.
